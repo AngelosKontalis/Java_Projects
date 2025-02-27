@@ -1,0 +1,74 @@
+# Java Projects Repository
+
+This repository contains various Java projects, covering a range of applications from algorithms and data structures to object-oriented programming and real-world applications.
+
+## Table of Contents
+- [Introduction]
+- [Projects]
+  - [1. Data Structures and Algorithms]
+  - [2. GUI Applications]
+  - [3. Web Development]
+  - [4. System Utilities]
+- [Installation]
+- [Usage]
+- [License]
+
+## Introduction
+This repository serves as a collection of Java-based projects developed for learning, practice, and real-world applications. Each project is designed to demonstrate key Java programming concepts, including:
+- Object-Oriented Programming (OOP)
+- Data Structures and Algorithms
+- GUI Development (Swing, JavaFX)
+- Networking and Web Applications
+- File Handling and Database Integration
+
+## Projects
+### 1. Data Structures and Algorithms
+This section includes implementations of fundamental data structures and algorithms in Java, such as:
+- Sorting algorithms (Merge Sort, Quick Sort, etc.)
+- Searching algorithms (Binary Search, DFS, BFS)
+- Linked Lists, Stacks, Queues, Trees, and Graphs
+
+### 2. GUI Applications
+A collection of Java-based GUI applications using Swing and JavaFX. Example projects include:
+- **To-Do List**: A simple task manager with a graphical interface.
+- **Calculator**: A basic calculator with arithmetic functions.
+- **Notepad Clone**: A lightweight text editor with file-saving capabilities.
+
+### 3. Web Development
+Java-based web applications using frameworks like Spring Boot and Servlets. Examples include:
+- **RESTful API**: A REST API for managing user data.
+- **Online Bookstore**: A simple e-commerce backend.
+- **Login System**: A user authentication system with database integration.
+
+### 4. System Utilities
+Utility programs designed for system automation and management:
+- **File Organizer**: A script to sort and organize files into directories.
+- **Log Analyzer**: A tool for analyzing and summarizing log files.
+
+## Installation
+To get started with these projects, clone the repository and navigate to the desired project folder:
+
+
+git clone https://github.com/AngelosKontalis/Java_Projects.git
+cd Java_Projects/<project-folder>
+
+
+Ensure you have Java installed (JDK 11 or later recommended). Some projects may require additional dependencies, which will be listed in their respective directories.
+
+## Usage
+Each project contains a `README.md` file with specific instructions on how to compile and run the code. Generally, you can compile and run a Java program with:
+
+
+javac Main.java
+java Main
+
+
+For Maven-based projects:
+
+mvn clean install
+mvn spring-boot:run
+
+
+## License
+This repository is open-source and available under the [MIT License]. Feel free to use, modify, and contribute!
+
